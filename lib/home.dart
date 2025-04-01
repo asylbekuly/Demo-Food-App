@@ -26,7 +26,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  // ✅ Track current tab
   int tab = 0;
 
   // ✅ Define tab bar destinations
@@ -50,7 +49,6 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    // ✅ Define pages for each tab
     final pages = [
       Center(
         child: ConstrainedBox(

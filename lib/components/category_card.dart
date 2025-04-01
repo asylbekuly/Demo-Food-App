@@ -16,7 +16,6 @@ class CategoryCard extends StatelessWidget {
         .textTheme
         .apply(displayColor: Theme.of(context).colorScheme.onSurface);
 
-    // ✅ Карточка с вертикальной колонкой
     return Card(
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -43,7 +42,7 @@ class CategoryCard extends StatelessWidget {
                 ),
               ),
 
-              // 3. Повернутая надпись "Smoothies" в правом нижнем углу
+              
               Positioned(
                 bottom: 16.0,
                 right: 5.0,
